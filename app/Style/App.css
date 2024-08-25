@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

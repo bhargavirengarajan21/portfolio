@@ -1,0 +1,46 @@
+@import '../Style/breakpoint.scss';
+
+.timeline-wrapper {
+  height: 100%;
+  overflow: scroll;
+
+  .image-container {
+    height: 15rem;
+  }
+
+  .timeline-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-items: center;
+
+    .timeline-item {
+      padding: 1rem;
+    }
+
+    .card-container {
+
+        @include respond(tablet) {
+            margin: 2rem;
+        }
+
+        .header {
+            font-weight: 600;
+
+            @include respond(tablet) {
+                font-size: 1.25rem;
+            }
+        }
+        
+        .description {
+            @include respond(tablet) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    @include respond(tablet) {
+        grid-template-columns: 100%;
+    }
+  }
+}

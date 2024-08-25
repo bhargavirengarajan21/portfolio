@@ -1,0 +1,36 @@
+@import '../Style/breakpoint.scss';
+
+.project-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    overflow: scroll;
+
+    .card-container {
+
+        @include respond(tablet) {
+            margin: 2rem;
+        }
+
+        .header {
+            font-weight: 600;
+
+            @include respond(tablet) {
+                font-size: 1.25rem;
+            }
+        }
+        
+        .description {
+            @include respond(tablet) {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    @include respond(tablet) {
+        grid-template-columns: 100%;
+    }
+}

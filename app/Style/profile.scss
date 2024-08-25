@@ -1,0 +1,23 @@
+.profile-container {
+    height: 80%;
+    background: blueviolet;
+    overflow: scroll;
+
+    .introduction {
+        font-size: 3rem;
+        color: white;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        background-color: black;
+    }
+
+    &::-webkit-scrollbar, ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .child-container {
+        height: 100%;
+    }
+}
