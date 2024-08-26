@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
 import Timeline from '../Timeline/Timeline';
 import Image from "next/image";
-import Picture from '../../Images/Picture-2.jpg';
+import Picture from '../../Images/Picture-4.jpg';
 import '../../Style/about.scss';
 
 const About = () => {

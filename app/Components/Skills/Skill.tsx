@@ -42,7 +42,7 @@ const Skill = () => {
         "MachineLearning": [TensorFlow, keras, gemini, colab, OpenCV, PyTorch, Scikit, Numpy,git,vscode,splunk, BeautifulSoup],
         "cloud engineer": [Aws, Azure,git,vscode,Jenkins, airbrake,splunk],
         "devops": [Jenkins, RabitMq, Azure, Aws,git,vscode,splunk],
-        "All": [React,Enzyme,Jenkins,Kotline,Nodejs,Aws,Azure,Kafka,SQL,RabitMq,Ror,NewRelic,springBoot,keras,gemini,colab,C,CSharp,Go,Html,JavaImag,Js,Numpy,OpenCV,Python,PyTorch,Scikit,TensorFlow,vscode,git,splunk],
+        "All": [ReactImg,Enzyme,Jenkins,Kotline,Nodejs,Aws,Azure,Kafka,SQL,RabitMq,Ror,NewRelic,springBoot,keras,gemini,colab,C,CSharp,Go,Html,JavaImag,Js,Numpy,OpenCV,Python,PyTorch,Scikit,TensorFlow,vscode,git,splunk],
         "language": [JavaImag,C,CSharp,Python,Go],
     }
     const [inputRadio, setInput] = useState("All");

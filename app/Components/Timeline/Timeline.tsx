@@ -57,7 +57,7 @@ const TimelineItem = ({ ...data }:CardComponentProps) => {
 
 const Timeline = () => (
   <div className="timeline-wrapper">
-   
+    <p>{"What I do When I'm not coding"}</p>
     <div className="timeline-container">
       {timelineData.map((data, idx) => (
       <TimelineItem {...data} key={idx} />
